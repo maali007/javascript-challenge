@@ -1,7 +1,8 @@
 # javascript-challenge
 
 <h4>Level 1: Automatic Table and Date Search (Required)</h4>
-<h5>Part 1: Populate table with UFO data.</h5>
+<hr>
+<h5>Part 1: Populate table with UFO data</h5>
 <ul>
   <li>Used the index.html file provided.</li>
   <li>Wrote code that does the following:
@@ -18,4 +19,23 @@
   </li>
 </ul>
     
+<hr>
 
+<h5>Part 2: Date Filter Feature</h5>
+<ul>
+  <li>Wrote code that does the following:
+    <ul>
+      <li>Uses d3 to select the element that captures user date input. Store as a variable.</li>
+      <li>Gets the value property of the input element. Store as variable.</li>
+      <li>Stores matching records as a variable.</li>
+      <li>Loops through the matches and: 
+        <ul>
+          <li>Appends a row for each matched record.</li>
+          <li>Uses `Object.entries` to console.log each alleged sighting value (state, shape etc).</li>
+          <li>Appends a cell to the row for each value.</li>
+        </ul>         
+      </li>
+      <li>Filter executed on clicking <b>Filter Table</b> button.</li>
+</ul>
+
+<hr>
