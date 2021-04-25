@@ -11,3 +11,5 @@ table.attr("class", "table table-striped");
 //  Step 1: Loop Through `data` and console.log each alleged sighting object
 allegedSightings.forEach(function(ufoClaim) {
   console.log(ufoClaim);
+    // Step 2:  Use d3 to append one table row `tr` for each alleged sighting object
+    var row = tbody.append("tr");
