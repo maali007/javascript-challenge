@@ -4,3 +4,6 @@ console.log(allegedSightings);
 
 // Use D3 to select the table
 var table = d3.select("table");
+
+// Use d3 to create a bootstrap striped table
+table.attr("class", "table table-striped");
