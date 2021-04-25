@@ -38,9 +38,9 @@ button.on("click", function() {
 
     tbody.html("");
 
-    // Select date input by user get the raw HTML node
+    // Select date input element
     var inputElement = d3.select("#datetime");
-    // Get the value property of the input element (datetime, city, state, country, shape, durationMinutes, comments)
+    // Get the value property of the input element (datetime)
     var inputValue = inputElement.property("value");
     // Filter for data that matches the input value
     var filteredData = allegedSightings.filter(claim => claim.datetime === inputValue);
