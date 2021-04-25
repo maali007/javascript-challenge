@@ -35,7 +35,9 @@
           <li>Appends a cell to the row for each value.</li>
         </ul>         
       </li>
-      <li>Filter executed on clicking <b>Filter Table</b> button.</li>
+   </ul>
+ </li>
+ <li>Filter executed on clicking <b>Filter Table</b> button.</li>
 </ul>
 
 <hr>
