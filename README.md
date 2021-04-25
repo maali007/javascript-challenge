@@ -41,3 +41,16 @@
 </ul>
 
 <hr>
+
+<h5>Part 3: Date Filter Clear</h5>
+<ul>
+  <li>Wrote code that does the following:
+    <ul>
+      <li>Removes filter results.</li>
+      <li>Re-appends original UFO data (all rows).</li>
+   </ul>
+ </li>
+ <li>Reset executed on clicking <b>Reset Table</b> button.</li>
+</ul>
+
+<hr>
