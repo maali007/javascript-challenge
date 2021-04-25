@@ -1,8 +1,8 @@
 # javascript-challenge
-
-<h4>Level 1: Automatic Table and Date Search (Required)</h4>
 <hr>
-<h5>Part 1: Populate table with UFO data</h5>
+<h2>Level 1: Automatic Table and Date Search (Required)</h4>
+<hr>
+<h3>Part 1: Populate table with UFO data</h5>
 <ul>
   <li>Used the index.html file provided.</li>
   <li>Wrote code that does the following:
@@ -21,7 +21,7 @@
     
 <hr>
 
-<h5>Part 2: Date Filter Feature</h5>
+<h3>Part 2: Date Filter Feature</h5>
 <ul>
   <li>Wrote code that does the following:
     <ul>
@@ -42,7 +42,7 @@
 
 <hr>
 
-<h5>Part 3: Date Filter Clear</h5>
+<h3>Part 3: Date Filter Clear</h5>
 <ul>
   <li>Wrote code that does the following:
     <ul>
@@ -54,3 +54,5 @@
 </ul>
 
 <hr>
+
+<h1>I DID NOT ATTEMPT LEVEL 2 [OPTIONAL]. I HOWEVER ADDED A FILTER CLEAR FUNCTIONALITY TO MY CODE ... WORTH SOME CREDIT :)</h1>
