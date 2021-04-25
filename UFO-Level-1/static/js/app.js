@@ -1,3 +1,4 @@
+// LEVEL 1: PART 1
 // Assign the data from data.js to a descriptive variable & console log the UFO data
 var allegedSightings = data;
 console.log(allegedSightings);
@@ -28,3 +29,36 @@ allegedSightings.forEach(function(ufoClaim) {
   });
 });
     
+
+// LEVEL 1: PART 2
+// Date/Time Filter
+// Select the button
+var button = d3.select("#filter-btn");
+button.on("click", function() {
+
+    tbody.html("");
+
+    // Select date input by user get the raw HTML node
+    var inputElement = d3.select("#datetime");
+    // Get the value property of the input element (datetime, city, state, country, shape, durationMinutes, comments)
+    var inputValue = inputElement.property("value");
+    // Filter for data that matches the input value
+    var filteredData = allegedSightings.filter(claim => claim.datetime === inputValue);
+
+
+    filteredData.forEach(function(matches) {
+
+      console.log(matches);
+      // Append one table row `tr` for each alleged sighting object
+      var row = tbody.append("tr");
+      // Use `Object.entries` to console.log each alleged sighting value
+      Object.entries(matches).forEach(function([key, value]) {
+          console.log(key, value);
+          // Append a cell to the row for each value
+          var cell = row.append("td");
+          cell.text(value);
+      });
+    });
+});
+  
+
