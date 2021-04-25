@@ -22,4 +22,9 @@ allegedSightings.forEach(function(ufoClaim) {
   Object.entries(ufoClaim).forEach(function([key, value]) {
     console.log(key, value);
 
+    // Step 4: Use d3 to append 1 cell per alleged sighting value (datetime, city, state, country, shape, durationMinutes, comments)
+    var cell = row.append("td");
+    cell.text(value);
+  });
+});
     
