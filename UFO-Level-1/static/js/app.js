@@ -2,3 +2,5 @@
 var allegedSightings = data;
 console.log(allegedSightings);
 
+// Use D3 to select the table
+var table = d3.select("table");
